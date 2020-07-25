@@ -1,0 +1,56 @@
+.mapboxgl-area-list
+{
+    display: none;
+}
+
+.mapboxgl-ctrl-group .mapboxgl-area-list button
+{
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    padding: 8px 8px 6px;
+    text-align: right;
+    width: 100%;
+    height: auto;
+}
+
+.mapboxgl-area-list button.active
+{
+    font-weight: bold;
+}
+
+.mapboxgl-area-list button:hover
+{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.mapboxgl-area-list button + button
+{
+    border-top: 1px solid #ddd;
+}
+
+.mapboxgl-area-switcher
+{ 
+    background: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64" width="512" height="512"><path fill="%23000000" d="M62,9a1,1,0,0,0,1-1V2a1,1,0,0,0-1-1H56a1,1,0,0,0-1,1V4H36V2a1,1,0,0,0-1-1H29a1,1,0,0,0-1,1V4H9V2A1,1,0,0,0,8,1H2A1,1,0,0,0,1,2V8A1,1,0,0,0,2,9H4V28H2a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1H4V55H2a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1H8a1,1,0,0,0,1-1V60H28v2a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1V60H55v2a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1V56a1,1,0,0,0-1-1H60V36h2a1,1,0,0,0,1-1V29a1,1,0,0,0-1-1H60V9ZM57,3h4V7H57ZM30,3h4V7H30ZM3,7V3H7V7ZM3,34V30H7v4ZM7,61H3V57H7Zm27,0H30V57h4Zm27-4v4H57V57Zm0-27v4H57V30Zm-3-2H56a1,1,0,0,0-1,1v6a1,1,0,0,0,1,1h2V55H56a1,1,0,0,0-1,1v2H36V56a1,1,0,0,0-1-1H29a1,1,0,0,0-1,1v2H9V56a1,1,0,0,0-1-1H6V36H8a1,1,0,0,0,1-1V29a1,1,0,0,0-1-1H6V9H8A1,1,0,0,0,9,8V6H28V8a1,1,0,0,0,1,1h6a1,1,0,0,0,1-1V6H55V8a1,1,0,0,0,1,1h2Z"/><path d="M30,47H29a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Z"/><path d="M49,16V26a1,1,0,0,1-2,0V18.41L18.41,47H26a1,1,0,0,1,0,2H16a1,1,0,0,1-.38-.08.956.956,0,0,1-.54-.54A1,1,0,0,1,15,48V38a1,1,0,0,1,2,0v7.59L45.59,17H38a1,1,0,0,1,0-2H48a1,1,0,0,1,.38.08.956.956,0,0,1,.54.54A1,1,0,0,1,49,16Z" /></svg>');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+.mapboxgl-ctrl-area-switch select {
+    width: auto;
+    display: flex;
+    height: 25px;
+    padding: 0 8px;
+    align-items: center;
+    cursor: pointer;
+    text-indent: 0.01px;
+    text-overflow: ellipsis;
+    border: none;
+    outline: rgba(151,151,151, 1.0);
+    background: transparent;
+    background-image: none;
+    box-shadow: none;
+}
