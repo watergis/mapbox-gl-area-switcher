@@ -1,4 +1,4 @@
-# mapbox-gl-popup
+# mapbox-gl-area-switcher
 ![](https://github.com/watergis/mapbox-gl-area-switcher/workflows/Node.js%20Package/badge.svg)
 ![GitHub](https://img.shields.io/github/license/watergis/mapbox-gl-area-switcher)
 
