@@ -1,6 +1,6 @@
 {
   "name": "@watergis/mapbox-gl-area-switcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This module adds area switcher control which is able to change locations of area to mapbox-gl",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
