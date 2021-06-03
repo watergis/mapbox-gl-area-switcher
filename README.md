@@ -12,6 +12,8 @@ npm i @watergis/mapbox-gl-area-switcher --save
 
 ## Demo:
 
+Try [codesandbox](https://codesandbox.io/s/mapbox-gl-area-switcher-mqd8f?file=/src/index.ts).
+
 See [demo](https://watergis.github.io/mapbox-gl-area-switcher/#12/-1.08551/35.87063).
 
 ## Test:
